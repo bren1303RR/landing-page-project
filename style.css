@@ -59,3 +59,34 @@ h1 {
     font-weight: 500;
     font-size: 20px;
 }
+
+.project-section {
+    display: block;
+    text-align: center;
+}
+
+.project-row {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.project > p {
+    max-width: 300px;
+    text-align: center;
+}
+
+h2 {
+    margin: 40px;
+}
